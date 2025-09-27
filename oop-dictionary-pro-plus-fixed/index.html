@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OOP Dictionary Pro++ (Fixed)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>OOP Dictionary Pro++ (Fixed)</h1>
+  <div class="controls">
+    <input id="search" placeholder="Search...">
+    <button id="addBtn">+ Add New</button>
+  </div>
+  <ul id="favorites"></ul>
+  <div id="cards"></div>
+
+  <div id="modal" class="modal">
+    <div class="modal-card">
+      <h2 id="modalTitle">Add Word</h2>
+      <label>Word<input id="wordInput"></label>
+      <label>Pronunciation<input id="phoneticInput"></label>
+      <label>Meaning<textarea id="meaningInput"></textarea></label>
+      <label>Example<textarea id="exampleInput"></textarea></label>
+      <label>Tags<input id="tagsInput"></label>
+      <button id="saveBtn">Save</button>
+      <button id="cancelBtn">Cancel</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
